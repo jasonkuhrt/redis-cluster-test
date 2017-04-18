@@ -1,0 +1,14 @@
+{
+  "name": "redis-cluster-test",
+  "version": "1.0.0",
+  "main": "Main.js",
+  "license": "MIT",
+  "dependencies": {
+    "bluebird": "^3.5.0",
+    "ioredis": "^2.5.0",
+    "lodash": "^4.17.4"
+  },
+  "scripts": {
+    "start": "node Main.js"
+  }
+}
