@@ -14,6 +14,9 @@ const Main = async () => {
     enableReadyCheck: true,
     scaleReads: "slave",
   }
+
+  console.log("Establishing connection to the following redis nodes:\n%j", redisNodes)
+
   const rcc = new Redis.Cluster(
     redisNodes,
     clientSettings
